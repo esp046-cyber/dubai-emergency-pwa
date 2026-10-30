@@ -1,0 +1,10 @@
+{
+  "name": "sentinel-alert-dubai",
+  "version": "1.0.0",
+  "description": "Zero-build PWA: live civil & emergency feed for Jebel Ali & Discovery Gardens, Dubai.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/app.test.js"
+  }
+}
