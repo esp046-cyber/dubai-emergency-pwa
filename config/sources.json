@@ -1,0 +1,41 @@
+{
+  "pollSeconds": 60,
+  "keywords": [
+    "Jebel Ali",
+    "Discovery Gardens",
+    "Dubai",
+    "UAE",
+    "strike",
+    "missile",
+    "blast",
+    "evacuation",
+    "airspace",
+    "civil defense"
+  ],
+  "sources": [
+    {
+      "id": "gn-incident",
+      "name": "Google News: Dubai incidents",
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=(Dubai+OR+UAE+OR+%22Jebel+Ali%22)+(missile+OR+strike+OR+blast+OR+evacuation+OR+airspace+OR+%22civil+defense%22)+when:2d&hl=en&gl=AE&ceid=AE:en"
+    },
+    {
+      "id": "gn-local",
+      "name": "Google News: Jebel Ali / Discovery Gardens",
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%22Jebel+Ali%22+OR+%22Discovery+Gardens%22+when:2d&hl=en&gl=AE&ceid=AE:en"
+    },
+    {
+      "id": "gdacs",
+      "name": "GDACS Global Disaster Alerts",
+      "type": "rss",
+      "url": "https://www.gdacs.org/xml/rss.xml"
+    },
+    {
+      "id": "usgs",
+      "name": "USGS Earthquakes (M2.5+ 24h)",
+      "type": "usgs",
+      "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson"
+    }
+  ]
+}
