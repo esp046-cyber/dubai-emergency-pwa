@@ -1,0 +1,18 @@
+{
+  "description": "Reference list of CORS-friendly proxy endpoints used by script.js (static GitHub Pages cannot run server code).",
+  "proxies": [
+    {
+      "name": "rss2json",
+      "template": "https://api.rss2json.com/v1/api.json?rss_url={encodedUrl}",
+      "primary": true
+    },
+    {
+      "name": "allorigins",
+      "template": "https://api.allorigins.win/raw?url={encodedUrl}",
+      "primary": false
+    }
+  ],
+  "direct_cors_sources": [
+    "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson"
+  ]
+}
