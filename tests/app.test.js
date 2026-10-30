@@ -1,0 +1,10 @@
+const assert=require('assert');const {classify,computeStatus,parseDate}=require('../script.js');
+const now=Date.now();
+let a=classify({title:'Missile alert near Jebel Ali port',summary:'',ts:now});assert.strictEqual(a.sev,'critical');assert.ok(a.match);
+a=classify({title:'Dubai property prices rise',summary:'',ts:now});assert.strictEqual(a.sev,'info');
+a=classify({title:'Football match result',summary:''});assert.strictEqual(a.match,false);
+assert.strictEqual(computeStatus([{sev:'critical',ts:now}],now),'critical');
+assert.strictEqual(computeStatus([{sev:'elevated',ts:now-3600e3}],now),'heightened');
+assert.strictEqual(computeStatus([{sev:'critical',ts:now-30*3600e3}],now),'normal');
+assert.strictEqual(parseDate('2026-01-01 10:00:00'),Date.UTC(2026,0,1,10));
+console.log('All tests passed');
