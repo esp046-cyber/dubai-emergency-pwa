@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Sentinel Alert Dubai: Live Civil &amp; Emergency Feed</title>
+<meta name="description" content="Live civil and emergency feed for Jebel Ali and Discovery Gardens, Dubai, UAE. Offline crisis tips, one-tap emergency dials, siren and safety check-in.">
+<meta name="theme-color" content="#0d1117">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Sentinel Dubai">
+<meta name="msapplication-config" content="browserconfig.xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sentinel Alert Dubai: Live Civil &amp; Emergency Feed">
+<meta property="og:description" content="Live alerts for Jebel Ali &amp; Discovery Gardens, Dubai. Works offline.">
+<meta property="og:image" content="https://esp046-cyber.github.io/dubai-emergency-pwa/assets/og-image.png">
+<meta property="og:url" content="https://esp046-cyber.github.io/dubai-emergency-pwa/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sentinel Alert Dubai">
+<meta name="twitter:description" content="Live civil &amp; emergency feed for Jebel Ali and Discovery Gardens, Dubai.">
+<meta name="twitter:image" content="https://esp046-cyber.github.io/dubai-emergency-pwa/assets/og-image.png">
+
+<!-- Inline Critical Styles to Prevent Blank White Flash -->
+<style>
+  :root {
+    --bg: #0d1117;
+    --panel: #161b22;
+    --line: #30363d;
+    --txt: #e6edf3;
+    --mut: #8b949e;
+    --red: #ff3344;
+    --amb: #ffb700;
+    --grn: #00ff88;
+  }
+  * { box-sizing: border-box; }
+  html {
+    background-color: var(--bg) !important;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+    background-color: var(--bg) !important;
+    color: var(--txt);
+    font: 16px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) calc(24px + env(safe-area-inset-bottom)) env(safe-area-inset-left);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+  }
+  .notice-bar {
+    background: rgba(255, 183, 0, 0.15);
+    border: 1px solid var(--amb);
+    color: var(--amb);
+    font-size: 13px;
+    padding: 10px 14px;
+    margin: 8px 12px;
+    border-radius: 10px;
+    line-height: 1.4;
+    text-align: center;
+  }
+</style>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="brand">
+    <span class="logo">&#9888;</span>
+    <div>
+      <h1>Sentinel Alert Dubai</h1>
+      <p>Jebel Ali &amp; Discovery Gardens</p>
+    </div>
+  </div>
+  <div class="conn" id="conn" role="status" aria-live="polite">
+    <span class="dot"></span>
+    <span id="connText">Starting</span>
+  </div>
+</header>
+
+<aside class="notice-bar" role="note">
+  &#9888; <strong>Foreground Reference Only:</strong> iOS suspends web alerts when your screen is locked. Keep government Emergency Alerts active in iOS Settings for critical life-safety warnings.
+</aside>
+
+<section id="banner" class="banner normal" role="alert" aria-live="assertive">
+  <div class="bTitle" id="bTitle">NORMAL</div>
+  <div class="bSub" id="bSub">Waiting for first feed update&hellip;</div>
+</section>
+
+<section class="bar">
+  <button id="refreshBtn" class="btn primary" type="button">&#8635; Force Refresh</button>
+  <button id="armBtn" class="btn" type="button">&#128276; Enable Alerts</button>
+  <span class="meta" id="meta">Next poll in 60s</span>
+</section>
+
+<section class="grid" aria-label="Quick actions">
+  <a class="act red" href="tel:999">&#128222;<b>Police</b><small>999</small></a>
+  <a class="act amber" href="tel:997">&#128658;<b>Civil Defence</b><small>997</small></a>
+  <a class="act red" href="tel:998">&#128657;<b>Ambulance</b><small>998</small></a>
+  <a class="act" target="_blank" rel="noopener" href="https://www.google.com/maps/search/embassies+and+consulates+Dubai">&#127963;<b>Embassy Locator</b><small>Maps</small></a>
+  <a class="act" target="_blank" rel="noopener" href="https://www.google.com/maps/search/public+shelter+near+Discovery+Gardens+Dubai">&#127968;<b>Nearest Shelter</b><small>Maps</small></a>
+  <a class="act" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&amp;destination=Discovery+Gardens+Metro+Station+Dubai&amp;travelmode=walking">&#128647;<b>Metro Route</b><small>Discovery Gdns</small></a>
+  <button class="act green" id="checkinBtn" type="button">&#9989;<b>I&rsquo;m Safe</b><small>Offline check-in</small></button>
+  <button class="act amber" id="sirenBtn" type="button">&#128266;<b>Siren</b><small id="sirenState">Tap to sound</small></button>
+</section>
+
+<section class="card" id="checkinCard" hidden>
+  <h2>Safety check-in</h2>
+  <p id="checkinLast">No check-in yet.</p>
+  <a id="smsLink" class="btn" href="sms:">Share via SMS</a>
+  <ul id="checkinLog" class="log"></ul>
+</section>
+
+<section class="card">
+  <div class="rowhead">
+    <h2>Live Feed</h2>
+    <select id="sevFilter" aria-label="Filter severity">
+      <option value="all">All</option>
+      <option value="critical">Critical</option>
+      <option value="elevated">Elevated+</option>
+    </select>
+  </div>
+  <p class="meta" id="feedMeta"></p>
+  <ul id="feed" class="feed"></ul>
+</section>
+
+<section class="card">
+  <h2>Offline Crisis Tips <span id="tipCount" class="pill"></span></h2>
+  <input id="tipSearch" type="search" placeholder="Search tips (e.g. water, lift, gas)" aria-label="Search tips">
+  <div id="chips" class="chips"></div>
+  <ol id="tips" class="tips"></ol>
+</section>
+
+<footer class="foot">
+  <p><b>Unofficial aggregator.</b> Headlines are keyword-filtered from public feeds and can be delayed, incomplete or wrong. Always follow official UAE channels: NCEMA, Dubai Police, Dubai Civil Defence and official government SMS alerts. In danger call <b>999 / 997 / 998</b>.</p>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
