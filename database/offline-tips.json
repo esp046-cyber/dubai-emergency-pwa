@@ -1,0 +1,552 @@
+[
+ {
+  "id": 1,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "If you smell gas, chemicals or see unusual smoke from Jebel Ali Port or the Free Zone, move away immediately."
+ },
+ {
+  "id": 2,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Move crosswind or upwind of the plume; never walk downwind of smoke."
+ },
+ {
+  "id": 3,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Go indoors quickly and shut all windows, doors and balcony doors."
+ },
+ {
+  "id": 4,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Turn off AC, fans and ventilation that draw outside air."
+ },
+ {
+  "id": 5,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Seal door gaps and vents with wet towels or tape."
+ },
+ {
+  "id": 6,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Shelter in an interior room above ground floor for most light gases; avoid basements for heavy gases."
+ },
+ {
+  "id": 7,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Do not use lifts if the building may be affected; use stairs."
+ },
+ {
+  "id": 8,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Do not light flames, smoke or switch on sparks if a gas leak is suspected."
+ },
+ {
+  "id": 9,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Wet a cloth and hold over nose and mouth if smoke enters; breathe through it."
+ },
+ {
+  "id": 10,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "If chemicals contact skin, remove contaminated clothing and rinse with water for 15 minutes."
+ },
+ {
+  "id": 11,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Do not induce vomiting after swallowing a chemical; call 998 or 997."
+ },
+ {
+  "id": 12,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Rinse eyes with clean water for at least 15 minutes; remove contact lenses."
+ },
+ {
+  "id": 13,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Keep pets indoors and bring them into the shelter room."
+ },
+ {
+  "id": 14,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Wait for official all-clear before opening windows or leaving."
+ },
+ {
+  "id": 15,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Ventilate the home fully after the all-clear."
+ },
+ {
+  "id": 16,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Throw away exposed open food; wash sealed containers before use."
+ },
+ {
+  "id": 17,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Keep a battery radio or charged phone to follow official updates."
+ },
+ {
+  "id": 18,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Tell Civil Defence (997) the colour, smell and direction of any visible plume."
+ },
+ {
+  "id": 19,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Do not drive toward the incident; keep roads clear for emergency vehicles."
+ },
+ {
+  "id": 20,
+  "cat": "Chemical / Industrial Hazard",
+  "text": "Learn the hazard sign colours on trucks near the port; report leaking containers to 997."
+ },
+ {
+  "id": 21,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "On a siren or alert, move at once to the most interior room, away from windows."
+ },
+ {
+  "id": 22,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "Stay away from glass, mirrors and heavy hanging items."
+ },
+ {
+  "id": 23,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "Lower floors of a sturdy building are safer than top floors; avoid the roof and balcony."
+ },
+ {
+  "id": 24,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "Do not film or watch from windows or balconies."
+ },
+ {
+  "id": 25,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "Drop to the floor, cover head and neck with arms, and stay down during a blast."
+ },
+ {
+  "id": 26,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "Open your mouth slightly to reduce pressure injury if an explosion is close."
+ },
+ {
+  "id": 27,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "Stay sheltered at least 30 minutes after the last blast unless officials say otherwise."
+ },
+ {
+  "id": 28,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "Expect secondary blasts; do not rush outside."
+ },
+ {
+  "id": 29,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "If driving, stop away from bridges, tunnels and buildings; get low beside the car or enter a sturdy building."
+ },
+ {
+  "id": 30,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "If outdoors with no cover, lie flat in a low spot and cover your head."
+ },
+ {
+  "id": 31,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "After a blast, check yourself and others for injuries before moving."
+ },
+ {
+  "id": 32,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "Control heavy bleeding with firm direct pressure using clean cloth."
+ },
+ {
+  "id": 33,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "Do not touch unexploded objects or debris; stay back and call 999."
+ },
+ {
+  "id": 34,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "Avoid damaged buildings; check for gas smell and exposed wires."
+ },
+ {
+  "id": 35,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "Turn off gas and electricity at the main only if safe to do so."
+ },
+ {
+  "id": 36,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "Use text messages rather than calls to keep phone lines free."
+ },
+ {
+  "id": 37,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "Keep a torch, not candles, for light."
+ },
+ {
+  "id": 38,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "Do not spread unverified videos or rumours; rely on official sources."
+ },
+ {
+  "id": 39,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "Keep shoes beside your bed to protect feet from broken glass."
+ },
+ {
+  "id": 40,
+  "cat": "Air Raid / Explosion Cover",
+  "text": "Agree a household meeting point and plan before any alert."
+ },
+ {
+  "id": 41,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Learn two exit routes from your apartment and building before an emergency."
+ },
+ {
+  "id": 42,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Count the doors between your door and the nearest stairwell so you can find it in smoke."
+ },
+ {
+  "id": 43,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Never use lifts during a fire or evacuation; use the stairs."
+ },
+ {
+  "id": 44,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Touch doors with the back of your hand; do not open a hot door."
+ },
+ {
+  "id": 45,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Stay low under smoke where the air is cleaner."
+ },
+ {
+  "id": 46,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Close doors behind you to slow fire and smoke."
+ },
+ {
+  "id": 47,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Walk down on the right side and leave the left free for responders."
+ },
+ {
+  "id": 48,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Help children, elderly and disabled neighbours if you can do so safely."
+ },
+ {
+  "id": 49,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "If trapped, seal door gaps with wet cloth and signal from a window; call 997 with your exact flat number."
+ },
+ {
+  "id": 50,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Discovery Gardens buildings are low and mid-rise; know your building and zone name."
+ },
+ {
+  "id": 51,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Do not jump; wait for rescue if you cannot exit."
+ },
+ {
+  "id": 52,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Take phone, keys, ID and meds only if it costs no time."
+ },
+ {
+  "id": 53,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Gather at the building assembly point and report to a warden or responders."
+ },
+ {
+  "id": 54,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Do not re-enter until Civil Defence says it is safe."
+ },
+ {
+  "id": 55,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Test your smoke alarm monthly and keep a fire extinguisher accessible."
+ },
+ {
+  "id": 56,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Keep corridors, stairwells and balcony exits clear of belongings."
+ },
+ {
+  "id": 57,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Know where your building's fire panel and extinguishers are."
+ },
+ {
+  "id": 58,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Keep a small grab bag by the door with documents, cash and meds."
+ },
+ {
+  "id": 59,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Photograph key documents and keep copies in cloud storage and on your phone."
+ },
+ {
+  "id": 60,
+  "cat": "High-Rise Evacuation (Discovery Gardens)",
+  "text": "Tell your building management about residents who need evacuation help."
+ },
+ {
+  "id": 61,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Store at least 3 litres of drinking water per person per day for at least 3 days; 7 days is better."
+ },
+ {
+  "id": 62,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Keep water in sealed bottles in a cool, dark place and rotate every 6 months."
+ },
+ {
+  "id": 63,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Fill bathtub or clean containers if you expect supply cuts."
+ },
+ {
+  "id": 64,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Boil water for 1 minute if its safety is doubtful, or use purification tablets."
+ },
+ {
+  "id": 65,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Stock non-perishable food: canned fish and beans, rice, dates, nuts, biscuits."
+ },
+ {
+  "id": 66,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Buy a manual can opener and ready-to-eat items that need no cooking."
+ },
+ {
+  "id": 67,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Keep a 7-day supply of regular medicines and a basic first-aid kit."
+ },
+ {
+  "id": 68,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Include infant formula, nappies and pet food if relevant."
+ },
+ {
+  "id": 69,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Keep power banks charged and a car charger available."
+ },
+ {
+  "id": 70,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Store a torch, spare batteries and a battery or crank radio."
+ },
+ {
+  "id": 71,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Keep small cash in AED, since card systems and ATMs may fail."
+ },
+ {
+  "id": 72,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Keep your car at least half full of fuel."
+ },
+ {
+  "id": 73,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Do not panic-buy beyond your needs; leave supplies for others."
+ },
+ {
+  "id": 74,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Eat perishable food first when power fails; keep the fridge closed."
+ },
+ {
+  "id": 75,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Use bottled water for drinking and cooking only; save other water for hygiene."
+ },
+ {
+  "id": 76,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Pack a grab bag: water, snacks, meds, documents, charger, whistle."
+ },
+ {
+  "id": 77,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Keep hygiene supplies: wipes, soap, hand sanitiser, tissue and bin bags."
+ },
+ {
+  "id": 78,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Know ramadan or religious dietary needs when preparing supplies."
+ },
+ {
+  "id": 79,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Store supplies off the floor and away from heat and sunlight."
+ },
+ {
+  "id": 80,
+  "cat": "Water & Ration Stockpiling",
+  "text": "Check expiry dates every 3 months and replace as needed."
+ },
+ {
+  "id": 81,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Emergency numbers in Dubai: Police 999, Civil Defence 997, Ambulance 998."
+ },
+ {
+  "id": 82,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Dubai Police non-emergency line is 901."
+ },
+ {
+  "id": 83,
+  "cat": "Local Consular & Official Contacts",
+  "text": "DEWA (power and water) emergency line is 991."
+ },
+ {
+  "id": 84,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Register with your embassy or consulate in the UAE and save its 24-hour number offline."
+ },
+ {
+  "id": 85,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Use the Embassy Locator button to find your embassy or consulate on the map."
+ },
+ {
+  "id": 86,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Most consulates are in Dubai or Abu Dhabi; check your country's travel advisory page."
+ },
+ {
+  "id": 87,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Keep passport, Emirates ID and visa copies in a waterproof pouch and on your phone."
+ },
+ {
+  "id": 88,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Keep at least 6 months passport validity if you may need to travel."
+ },
+ {
+  "id": 89,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Save contact numbers of an out-of-country family member as your message relay."
+ },
+ {
+  "id": 90,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Follow NCEMA, Dubai Police and Dubai Media Office official accounts for verified updates."
+ },
+ {
+  "id": 91,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Enable government emergency alerts on your phone settings."
+ },
+ {
+  "id": 92,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Download the Dubai Police app and the UAE official alert apps and test them now."
+ },
+ {
+  "id": 93,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Check airline and Dubai Airports updates before travelling; airspace may close at short notice."
+ },
+ {
+  "id": 94,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Know your employer's emergency contact and HR duty line."
+ },
+ {
+  "id": 95,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Tell your landlord or building management your emergency contact details."
+ },
+ {
+  "id": 96,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Keep a printed card with blood type, allergies and medicines for each family member."
+ },
+ {
+  "id": 97,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Use the I'm Safe button to log check-ins and share them by SMS."
+ },
+ {
+  "id": 98,
+  "cat": "Local Consular & Official Contacts",
+  "text": "If you are a foreign resident, keep your sponsor and company contact numbers handy."
+ },
+ {
+  "id": 99,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Do not post sensitive locations or incidents on social media."
+ },
+ {
+  "id": 100,
+  "cat": "Local Consular & Official Contacts",
+  "text": "Verify news with at least two official sources before acting or forwarding."
+ },
+ {
+  "id": 101,
+  "cat": "Medical & Communications",
+  "text": "Learn basic first aid: control bleeding, CPR, recovery position."
+ },
+ {
+  "id": 102,
+  "cat": "Medical & Communications",
+  "text": "Call 998 for medical emergencies and give your exact location and landmark."
+ },
+ {
+  "id": 103,
+  "cat": "Medical & Communications",
+  "text": "Keep a tourniquet or strong bandage and gauze in your first-aid kit."
+ },
+ {
+  "id": 104,
+  "cat": "Medical & Communications",
+  "text": "Stay hydrated; Dubai heat adds risk during any emergency without AC."
+ },
+ {
+  "id": 105,
+  "cat": "Medical & Communications",
+  "text": "Move heat stroke victims to shade and cool them with water and fans."
+ },
+ {
+  "id": 106,
+  "cat": "Medical & Communications",
+  "text": "Keep phone on low power mode and screen brightness low to save battery."
+ },
+ {
+  "id": 107,
+  "cat": "Medical & Communications",
+  "text": "Download offline maps of Jebel Ali and Discovery Gardens in advance."
+ },
+ {
+  "id": 108,
+  "cat": "Medical & Communications",
+  "text": "Send SMS instead of calling to reduce network load."
+ },
+ {
+  "id": 109,
+  "cat": "Medical & Communications",
+  "text": "Agree on a family text code like SAFE or HELP and a rendezvous point."
+ },
+ {
+  "id": 110,
+  "cat": "Medical & Communications",
+  "text": "Write key phone numbers on paper in case the phone dies."
+ }
+]
